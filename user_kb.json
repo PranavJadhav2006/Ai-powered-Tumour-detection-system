@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "question": "What is a brain tumor?",
+    "answer": "A brain tumor is a growth of abnormal cells in the brain. Some tumors are noncancerous (benign) and others are cancerous (malignant). Tumors can press on parts of the brain and affect how the body works."
+  },
+  {
+    "id": 2,
+    "question": "What are the common types of brain tumors?",
+    "answer": "The main types are gliomas, meningiomas, pituitary tumors, and acoustic neuromas. Gliomas grow from glial cells, meningiomas from membranes covering the brain, and pituitary tumors affect hormone production."
+  },
+  {
+    "id": 3,
+    "question": "What are the symptoms of a brain tumor?",
+    "answer": "Common symptoms include headaches that worsen in the morning, nausea, blurred vision, balance problems, personality changes, and seizures. However, symptoms vary based on tumor location and size."
+  },
+  {
+    "id": 4,
+    "question": "How is a brain tumor diagnosed?",
+    "answer": "Doctors use MRI or CT scans to get detailed images of the brain. In some cases, a biopsy is done to confirm the tumor type. The MRI shows the size, shape, and exact location of the tumor."
+  },
+  {
+    "id": 5,
+    "question": "What are MRI scans used for in tumor detection?",
+    "answer": "MRI scans use magnetic fields to produce detailed images of the brain. They help identify tumors, determine their type, and guide treatment planning."
+  },
+  {
+    "id": 6,
+    "question": "What types of brain tumors can your AI model detect?",
+    "answer": "The AI model can detect glioma, meningioma, pituitary tumor, and no-tumor cases. It analyzes MRI images and predicts the most likely tumor type based on visual features."
+  },
+  {
+    "id": 7,
+    "question": "What does it mean if my result shows 'no tumor'?",
+    "answer": "It means that the AI did not find any abnormal growth in your MRI scan. However, it is important to confirm with a doctor for a complete evaluation."
+  },
+  {
+    "id": 8,
+    "question": "What are the treatment options for brain tumors?",
+    "answer": "Treatment depends on the tumor type, size, and location. Common options include surgery, radiation therapy, and chemotherapy. Doctors may also suggest medications to reduce swelling or seizures."
+  },
+  {
+    "id": 9,
+    "question": "Can brain tumors be cured?",
+    "answer": "Some brain tumors can be completely removed with surgery, especially if they are benign. Malignant tumors may need ongoing treatments like radiation or chemotherapy. Early detection improves outcomes."
+  },
+  {
+    "id": 10,
+    "question": "Is the AI model 100% accurate?",
+    "answer": "No AI model is 100% accurate. The results should be reviewed by a radiologist or doctor for confirmation. The AI acts as a support tool, not a replacement for medical expertise."
+  },
+  {
+    "id": 11,
+    "question": "What should I do after receiving my AI diagnosis?",
+    "answer": "Consult your doctor with the AI report. They will interpret the result, confirm it with other tests, and guide you on the next steps for treatment or observation."
+  },
+  {
+    "id": 12,
+    "question": "How can I prevent brain tumors?",
+    "answer": "There is no sure way to prevent brain tumors, but maintaining a healthy lifestyle, avoiding radiation exposure, and managing existing health conditions may lower risk."
+  },
+  {
+    "id": 13,
+    "question": "What does glioma mean?",
+    "answer": "Glioma is a tumor that starts in the glial cells that support nerve cells in the brain. It can be low-grade (slow growing) or high-grade (fast growing and more aggressive)."
+  },
+  {
+    "id": 14,
+    "question": "What does pituitary tumor mean?",
+    "answer": "Pituitary tumors form in the pituitary gland, which controls hormones. These tumors can affect body growth, stress response, and metabolism but are usually benign."
+  },
+  {
+    "id": 15,
+    "question": "What lifestyle changes should a brain tumor patient make?",
+    "answer": "Eat a balanced diet, get adequate rest, avoid stress, and follow medical advice. Support groups and counseling can help with mental health during treatment."
+  },
+  {
+    "id": 16,
+    "question": "How does your AI system work?",
+    "answer": "The AI system analyzes MRI brain images using deep learning. It detects patterns and predicts whether a tumor is present, and if so, classifies its type. It helps doctors make quicker decisions."
+  },
+  {
+    "id": 17,
+    "question": "Can I use the AI report for a medical consultation?",
+    "answer": "Yes. You can share the AI-generated report with your doctor. It can help speed up diagnosis and guide discussions about treatment options."
+  },
+  {
+    "id": 18,
+    "question": "What should I do if my AI result and doctor’s opinion differ?",
+    "answer": "Always follow your doctor's advice. AI is a support tool that can assist in identifying patterns but should not replace a professional medical opinion."
+  },
+  {
+    "id": 19,
+    "question": "Is it safe to rely on AI for medical predictions?",
+    "answer": "AI tools are safe when used responsibly and reviewed by medical professionals. They can increase efficiency and accuracy but must always be part of a doctor-supervised process."
+  },
+  {
+    "id": 20,
+    "question": "How long does it take for the AI to analyze my MRI?",
+    "answer": "The AI model processes MRI images within seconds or minutes, depending on image size and system speed. It then generates a prediction and report automatically."
+  }
+]
