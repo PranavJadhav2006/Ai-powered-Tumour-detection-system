@@ -31,7 +31,7 @@ const LiveDemoPage = () => {
           </div>
           <div className="demo-content">
             <h2>DICOM Viewer</h2>
-            <DICOMViewer onAnalysisComplete={handleAnalysisComplete} displayImageUrl="/Meningioma.jpg" />
+            <DICOMViewer onAnalysisComplete={handleAnalysisComplete} />
             <h2>Analysis Results</h2>
             <Dashboard analysisResult={analysisResult} />
             <VoiceCommands />
