@@ -1,0 +1,97 @@
+.studio-page {
+  padding: 20px;
+}
+
+.studio-page h1 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.studio-content {
+  display: grid;
+  grid-template-columns: 1fr 250px; /* Viewer and tools sidebar */
+  gap: 20px;
+}
+
+.viewer-canvas-container {
+  height: 600px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #000;
+}
+
+.tools-sidebar,
+.ar-export-panel {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.tools-sidebar h2,
+.ar-export-panel h2 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.tool-btn,
+.action-btn {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  background-color: #4361ee;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.tool-btn:hover,
+.action-btn:hover {
+  background-color: #3a56d4;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.form-group select,
+.form-group input[type="range"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.checkbox-group input {
+  margin-right: 10px;
+}
+
+.help-text {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 15px;
+}
