@@ -1,0 +1,18 @@
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.app-body {
+  display: flex;
+  flex-grow: 1;
+  overflow: hidden; /* Prevent scrolling on the body */
+}
+
+.app-content {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto; /* Allow scrolling on the content area */
+  background-color: #f8f9fa; /* Light gray background */
+}

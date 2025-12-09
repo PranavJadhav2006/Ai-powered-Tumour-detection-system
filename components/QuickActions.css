@@ -1,0 +1,23 @@
+.quick-actions h2 {
+  display: none; /* Hide the heading as it's redundant */
+}
+
+.actions-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.action-btn {
+  padding: 8px 16px; /* Reduced padding */
+  background-color: #4361ee;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px; /* Reduced font size */
+  font-weight: 500;
+}
+
+.action-btn:hover {
+  background-color: #3a56d4;
+}

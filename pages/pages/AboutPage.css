@@ -1,0 +1,41 @@
+.about-page .team-photo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 3px solid #00C2A8;
+}
+
+.about-page .social-links .btn-link {
+  padding: 0 5px;
+}
+
+.about-page .hero-collage {
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.alternating-bg {
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+}
+
+.container > .alternating-bg:nth-of-type(2n) {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+}
+
+.container > .alternating-bg:nth-of-type(2n) .text-white,
+.container > .alternating-bg:nth-of-type(2n) .text-white-50,
+.container > .alternating-bg:nth-of-type(2n) h2,
+.container > .alternating-bg:nth-of-type(2n) p,
+.container > .alternating-bg:nth-of-type(2n) .display-5,
+.container > .alternating-bg:nth-of-type(2n) .display-6,
+.container > .alternating-bg:nth-of-type(2n) .lead {
+  color: #000 !important;
+}

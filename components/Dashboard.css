@@ -1,0 +1,152 @@
+/* Dashboard.css */
+
+.dashboard {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 24px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.dashboard-header h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #111;
+}
+
+.confidence-badge {
+  background-color: #e7f3ff;
+  color: #00529b;
+  padding: 8px 12px;
+  border-radius: 16px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 32px;
+}
+
+.metric-card {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.metric-card h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.metric-value {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111;
+}
+
+.volume-breakdown, .ai-features, .recommendation-card {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.volume-breakdown h3, .ai-features h3, .recommendation-card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 8px;
+}
+
+.volume-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Increased gap */
+}
+
+.volume-bar {
+  display: grid;
+  grid-template-columns: 1fr auto; /* Label and value */
+  gap: 8px;
+  align-items: center;
+}
+
+.volume-label {
+  font-size: 1rem; /* Increased font size */
+  font-weight: 500;
+  color: #333;
+}
+
+.volume-value {
+  font-size: 1rem; /* Increased font size */
+  font-weight: 600;
+  color: #111;
+}
+
+.volume-bar-container {
+  grid-column: 1 / -1; /* Span both columns */
+  height: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.volume-fill {
+  height: 100%;
+  border-radius: 5px;
+}
+
+.volume-bar.enhancing .volume-fill {
+  background-color: #ff6b6b; /* A reddish color for the tumor */
+}
+
+.volume-bar.edema .volume-fill {
+  background-color: #4dabf7; /* A blueish color for the edema */
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.feature-item {
+  background-color: #f9f9f9;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.recommendation-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.recommendation-details {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.recommendation-details p {
+  margin: 4px 0;
+}

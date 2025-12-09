@@ -1,0 +1,249 @@
+.voice-console-page {
+  padding: 20px;
+}
+
+.console-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.console-header h1 {
+  font-size: 1.8rem;
+  color: #333;
+  margin: 0;
+}
+
+.mic-toggle-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #ccc;
+  color: #333;
+}
+
+.mic-toggle-btn.mic-on {
+  background-color: #dc3545;
+  color: white;
+}
+
+.main-panel {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.record-btn {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url('C:\Users\PRANAV JADHAV\OneDrive\Desktop\Brain Tumor Detection\Brain Tumor Detection\frontend\public\Voice-Assistant.png'); /* Use the image as background */
+  background-size: cover; /* Cover the entire button area */
+  background-repeat: no-repeat;
+  background-position: center; /* Center the image */
+  color: transparent; /* Hide text if image is used */
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px auto;
+  position: relative;
+  overflow: hidden; /* Ensure video stays within bounds */
+}
+
+.record-btn.recording {
+  background-image: none; /* Remove image when recording */
+  background-color: transparent; /* Ensure transparent background when recording */
+}
+
+.waveform-animation {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  object-fit: cover; /* Cover the entire button area */
+  border-radius: 50%;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+.transcript-display {
+  min-height: 80px;
+  border: 1px dashed #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: left;
+  color: #333;
+}
+
+.command-chips {
+  margin-top: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.chip {
+  background-color: #e0e7ff;
+  color: #4361ee;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.history-section,
+.quick-phrases,
+.confidence-gauges,
+.settings-section {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.history-section h2,
+.quick-phrases h2,
+.confidence-gauges h2,
+.settings-section h2 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.command-log {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.log-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.log-item .timestamp {
+  font-weight: 500;
+  color: #888;
+}
+
+.log-item .command-text {
+  flex-grow: 1;
+}
+
+.log-item .classification-chip {
+  background-color: #e0e7ff;
+  color: #4361ee;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.log-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #666;
+}
+
+.phrase-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.phrase-buttons button {
+  padding: 8px 16px;
+  background-color: #e0e0e0;
+  color: #333;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.phrase-buttons button:hover {
+  background-color: #ccc;
+}
+
+.gauge-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.gauge-item span {
+  font-size: 14px;
+  color: #333;
+  min-width: 150px;
+}
+
+.gauge-item progress {
+  flex-grow: 1;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.gauge-item progress::-webkit-progress-bar {
+  background-color: #e0e0e0;
+  border-radius: 4px;
+}
+
+.gauge-item progress::-webkit-progress-value {
+  background-color: #4361ee;
+  border-radius: 4px;
+}
+
+.gauge-item progress::-moz-progress-bar {
+  background-color: #4361ee;
+  border-radius: 4px;
+}
+
+.settings-section .form-group {
+  margin-bottom: 10px;
+}
+
+.settings-section label {
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.settings-section select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.settings-section .checkbox-group {
+  margin-top: 10px;
+}

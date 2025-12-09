@@ -1,0 +1,61 @@
+.comparison-table-container .table {
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background-color: #1a243d;
+  color: white;
+  border: none; 
+}
+
+.comparison-table-container .table thead th {
+  background-color: #00C2A8;
+  color: white;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  padding: 1rem;
+}
+
+.comparison-table-container .table tbody tr {
+  background-color: #0F172A;
+  transition: background-color 0.3s ease;
+}
+
+.comparison-table-container .table tbody tr:nth-of-type(odd) {
+  background-color: #1a243d;
+}
+
+.comparison-table-container .table tbody tr:hover {
+  background-color: rgba(0, 194, 168, 0.1); 
+}
+
+.comparison-table-container .table tbody td {
+  border-top: 1px solid rgba(255, 255, 255, 0.1); 
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  vertical-align: middle;
+  text-align: center;
+  padding: 0.75rem;
+}
+
+.comparison-table-container .table tbody td:first-child {
+  text-align: left;
+  font-weight: bold;
+  color: #0adfc3;
+}
+
+.comparison-table-container .table .check-icon {
+  color: #28a745;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.comparison-table-container .table .cross-icon {
+  color: #dc3545; 
+  font-weight: bold;
+  font-size: 1.2rem;
+}

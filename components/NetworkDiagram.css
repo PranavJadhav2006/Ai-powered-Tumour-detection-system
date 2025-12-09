@@ -1,0 +1,90 @@
+.network-diagram {
+  padding: 2rem;
+  background: #0F172A;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+
+.diagram-container {
+  position: relative;
+  height: 400px;
+  background: 
+    radial-gradient(circle at 20% 20%, rgba(0, 194, 168, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(124, 92, 224, 0.05) 0%, transparent 50%);
+}
+
+.connections {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.node {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: #F0F0F0;
+  border: 2px solid;
+  border-radius: 16px;
+  padding: 0.5rem 1rem 1.5rem 1rem;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  width: 120px;
+  height: 120px;
+}
+
+.node.active {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+  border-color: #00C2A8;
+}
+
+.node-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #00C2A8;
+}
+
+.node-name {
+  font-weight: 600;
+  color: #2D3748;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.node-details-panel {
+  position: absolute;
+  top: 50%; /* Will be overridden by JS */
+  left: 50%; /* Will be overridden by JS */
+  transform: translate(-50%, -50%); /* Center it initially */
+  padding: 1.5rem;
+  background: #F7FAFC;
+  border-radius: 12px;
+  border-left: 4px solid #00C2A8;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  max-width: 300px;
+  z-index: 100;
+}
+
+.diagram-container.faded {
+  opacity: 0.3;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.diagram-container {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.tech-tag {
+  background: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: #4A5568;
+  border: 1px solid #E2E8F0;
+}
